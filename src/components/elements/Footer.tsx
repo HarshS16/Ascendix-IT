@@ -233,7 +233,7 @@ export const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full p-4 pr-14 rounded-md text-black placeholder-gray-600 text-sm"
+                className="w-full p-4 pr-14 rounded-md text-white placeholder-gray-600 text-sm"
               />
               <button
                 type="submit"

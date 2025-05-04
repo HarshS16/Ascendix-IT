@@ -264,7 +264,7 @@ export const AboutUs = () => {
           <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             <div
               data-aos="fade-up"
-              className="transition-all duration-500 transform hover:scale-[1.02]"
+              className="transition-all duration-500 transform hover:scale-[1.08]"
             >
               <Info
                 title="Our Mission"
@@ -291,7 +291,7 @@ export const AboutUs = () => {
             <div
               data-aos="fade-up"
               data-aos-delay="150"
-              className="transition-all duration-500 transform hover:scale-[1.02]"
+              className="transition-all duration-500 transform hover:scale-[1.08]"
             >
               <Info
                 title="Our Vision"
