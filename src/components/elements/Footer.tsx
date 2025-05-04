@@ -306,7 +306,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between gap-12">
           {/* Services */}
           <div className="w-full md:w-1/3">
-            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1">
+            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1.5">
               Services
             </h4>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -330,7 +330,7 @@ export const Footer = () => {
 
           {/* Page Links */}
           <div className="w-full md:w-1/3">
-            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1">
+            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1.5">
               Page Links
             </h4>
             <ul className="space-y-2 text-sm text-gray-300">
@@ -344,7 +344,7 @@ export const Footer = () => {
 
           {/* Subscribe */}
           <div className="w-full md:w-1/3">
-            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1">
+            <h4 className="text-xl font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-white transition-all duration-300 transform hover:-translate-y-1.5">
               Subscribe
             </h4>
             <form className="relative">
