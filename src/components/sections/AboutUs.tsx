@@ -255,7 +255,7 @@ export const AboutUs = () => {
         </div>
 
         <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col">
-          <Title className="mb-10">About Ascendix IT</Title>
+          <Title>About Ascendix IT</Title>
 
           <Paragraph className="mt-5">
             Ascendix IT is a next-gen IT services company that helps startups and enterprises thrive in the digital era. We specialize in developing powerful web and mobile applications, and building AI/ML models that solve real-world problems. With a focus on quality, innovation, and efficiency, we turn bold ideas into scalable solutions.
