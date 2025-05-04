@@ -365,7 +365,7 @@ export const Footer = () => {
               <ul className="flex gap-4">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/people/Ascendix/61575716981476/"
                     className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-purple-600 transition"
                   >
                     <FaFacebookF />
@@ -373,7 +373,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://x.com/Ascendix_IT"
                     className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-purple-600 transition"
                   >
                     <FaTwitter />
@@ -389,7 +389,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/ascendix-it/"
                     className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-purple-600 transition"
                   >
                     <FaLinkedinIn />
