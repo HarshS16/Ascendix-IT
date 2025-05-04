@@ -129,7 +129,7 @@ export const Navbar = () => {
                 alt="EdgeAI Logo"
                 className="w-10 h-10 transition-transform duration-300 hover:rotate-6"
               />
-              <div className="text-lg font-semibold text-heading-1 transition-all duration-300 ease-in-out">
+              <div className="text-2xl font-semibold text-heading-1 transition-all duration-300 ease-in-out">
                 Ascendix IT
               </div>
             </a>
