@@ -247,7 +247,7 @@ export const AboutUs = () => {
         <div className="w-full md:w-5/12 lg:w-1/2">
           <div className="w-full h-80 sm:h-96 relative">
             <img
-              src="https://images.pexels.com/photos/8728381/pexels-photo-8728381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://img.freepik.com/free-photo/website-hosting-concept-with-bright-light_23-2149406783.jpg?t=st=1746357286~exp=1746360886~hmac=87d12e5957fc7bc29918165524e10ce362e8701ecd5ca0d1195ae7979bde258e&w=1800"
               className="w-full h-full object-cover rounded-3xl shadow-lg relative z-10"
               alt="About Ascendix IT"
             />
