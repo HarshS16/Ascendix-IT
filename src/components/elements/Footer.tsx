@@ -381,7 +381,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/ascendixit/"
                     className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-purple-600 transition"
                   >
                     <FaInstagram />
