@@ -219,7 +219,7 @@ import { Title } from "../shared/Title";
 
 export const Services = () => {
   return (
-    <section id="services" className="relative py-0 overflow-hidden">
+    <section id="services" className="relative py-10 pb-10 overflow-hidden">
       {/* Gradient background blur effects */}
       <motion.div
         initial={{ opacity: 0 }}

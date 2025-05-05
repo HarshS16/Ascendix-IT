@@ -103,7 +103,7 @@ export const Numbers = () => {
 
   return (
     <section className="relative">
-      <Container className="flex justify-center align-center">
+      <Container className="flex justify-center align-center pt-20">
         <div
           className="mx-auto lg:mx-0 my -5 pt-5 px-5 sm:px-6 sm:pb-8 max-w-5xl rounded-3xl bg-box-bg
                       border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border

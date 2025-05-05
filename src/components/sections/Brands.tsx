@@ -141,8 +141,8 @@ const logos = ["discord", "openai", "paypal", "slack", "spotify", "youtube"];
 
 export const Brands = () => {
   return (
-    <section className="overflow-hidden">
-      <Container className="space-y-8">
+    <section className="overflow-hidden space-y-5">
+      <Container className="space-y-5 pt-20 pb-40">
         <div className="text-center max-w-3xl mx-auto">
           <Title> Trusted by Industry Leaders </Title>
         </div>

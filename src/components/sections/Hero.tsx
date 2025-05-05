@@ -181,7 +181,7 @@ import { Numbers } from "./Numbers";
 
 export const Hero = () => {
   return (
-    <section className="relative pt-10 lg:pt-36 overflow-hidden">
+    <section className="relative pt-10 pb-10 lg:pt-36 overflow-hidden">
       {/* 3D Gradient Background */}
       <motion.div
         initial={{ opacity: 0 }}
