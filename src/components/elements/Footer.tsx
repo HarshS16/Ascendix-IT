@@ -29,7 +29,7 @@ export const Footer = () => {
                 <a href="#" className="hover:text-purple-400 transition">AI & ML Solutions</a>
               </li>
               <li>
-                <a href="#" className="hover:text-purple-400 transition">Cloud Consulting</a>
+                <a href="#" className="hover:text-purple-400 transition">Branding</a>
               </li>
               <li>
                 <a href="#" className="hover:text-purple-400 transition">UI/UX Design</a>

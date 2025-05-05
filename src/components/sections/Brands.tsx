@@ -1,24 +1,43 @@
 
+import { useEffect } from "react";
 import { Container } from "../shared/Container";
 import { Title } from "../shared/Title";
 
 const logos = ["discord", "openai", "paypal", "slack", "spotify", "youtube"];
 
 export const Brands = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.Aos) {
+      window.Aos.refresh();
+    }
+  }, []);
+
   return (
     <section className="overflow-hidden space-y-5">
-      <Container className="space-y-5 pt-20 pb-40">
-        <div className="text-center max-w-3xl mx-auto">
+      <Container className="space-y-5 pt-10 pb-15">
+        <div
+          className="text-center max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <Title> Trusted by Industry Leaders </Title>
         </div>
 
-        {/* Marquee animation wrapper */}
-        <div className="relative w-full">
+        {/* Top row with marquee left */}
+        <div
+          className="relative w-full"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
           <div className="flex gap-6 animate-slide whitespace-nowrap">
-            {[...logos, ...logos].map((logo, key) => (
+            {logos.map((logo, key) => (
               <div
                 key={key}
                 className="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex-shrink-0"
+                data-aos="zoom-in"
+                data-aos-delay={100 + key * 50}
+                data-aos-anchor-placement="center-bottom"
               >
                 <img
                   src={`/assets/logos/${logo}.png`}
@@ -31,6 +50,7 @@ export const Brands = () => {
             ))}
           </div>
         </div>
+
       </Container>
     </section>
   );

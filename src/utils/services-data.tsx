@@ -274,7 +274,7 @@ export const services = [
   {
     title: "UI & UX Design",
     description:
-      "Transform user experiences with intuitive, visually stunning interfaces. Our design team combines aesthetics with functionality to create delightful digital journeys that boost engagement and conversion rates.",
+      "Transform user experiences with intuitive, visually stunning interfaces. We combine aesthetics with functionality to create delightful digital journeys that boost engagement and conversion rates.",
     icon: (
       <div className="transition-transform duration-300 transform hover:scale-105 hover:shadow-lg p-4 rounded-xl bg-white dark:bg-[#15161b] border border-gray-200 dark:border-gray-800">
         <svg
@@ -297,7 +297,7 @@ export const services = [
   {
     title: "Branding",
     description:
-      "Establish a powerful brand identity that resonates with your audience and sets you apart. We develop compelling visual systems with logo design, color palettes, and typography that effectively tell your unique story.",
+      "Establish a powerful brand identity that sets you apart. We develop compelling visual systems with logo design, color palettes, and typography that effectively tell your unique story.",
     icon: (
       <div className="transition-transform duration-300 transform hover:scale-105 hover:shadow-lg p-4 rounded-xl bg-white dark:bg-[#15161b] border border-gray-200 dark:border-gray-800">
         <svg
