@@ -376,7 +376,6 @@
 //   );
 // };
 
-import { Dispatch, SetStateAction } from "react";
 import { Container } from "../shared/Container";
 import logo from "/assets/icon.svg";
 import { BtnLink } from "../shared/BtnLink";
