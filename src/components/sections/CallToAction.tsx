@@ -150,9 +150,10 @@ import { motion } from "framer-motion";
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
+import { Dispatch, SetStateAction } from "react";
 
 interface CTAProps {
-  setIsModalOpen: (value: boolean) => void;
+  setIsModalOpen: Dispatch<SetStateAction<boolean>>;
 }
 
 export const CTA = ({ setIsModalOpen }: CTAProps) => {
