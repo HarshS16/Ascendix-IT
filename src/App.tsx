@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import { Layout } from "./components/Layout";
 import { AboutUs } from "./components/sections/AboutUs";
 import { Brands } from "./components/sections/Brands";
